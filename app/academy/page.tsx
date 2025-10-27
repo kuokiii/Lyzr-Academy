@@ -32,7 +32,7 @@ export default function AcademyHomePage() {
         {/* Logo added */}
         <img src="/images/lyzr-logo.png" alt="Lyzr logo" className="mx-auto mb-6 h-10 w-auto" />
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-semibold tracking-tight text-balance animate-in fade-in slide-in-from-bottom-2">
-          The best place to learn Lyzr
+          Building with Lyzr
         </h1>
         <div className="mt-6 flex justify-center">
           <div className="w-full max-w-xl">
