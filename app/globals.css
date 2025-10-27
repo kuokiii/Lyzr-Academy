@@ -135,6 +135,15 @@
     animation-fill-mode: both;
   }
 
+  /* Add scrollbar-hide utility to hide scrollbars while keeping scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
   /* fade */
   .fade-in,
   .fade-in-0 {
