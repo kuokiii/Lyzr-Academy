@@ -24,7 +24,7 @@ export function LessonCard({ item }: { item: LessonItem }) {
         </span>
       </div>
       <div className="px-1.5 pt-3 pb-2">
-        <h3 className="text-white text-base font-semibold leading-tight line-clamp-2">{item.title}</h3>
+        <h3 className="text-white text-base font-semibold leading-tight">{item.title}</h3>
       </div>
     </Link>
   )
