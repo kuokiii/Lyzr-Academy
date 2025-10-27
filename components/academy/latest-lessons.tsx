@@ -114,7 +114,7 @@ export function LatestLessons({
                 )}
               </div>
               <div className="mt-3 flex items-center justify-between gap-2">
-                <h3 className="text-sm/6 md:text-base/7 font-medium text-white line-clamp-2">{v.title}</h3>
+                <h3 className="text-sm/6 md:text-base/7 font-medium text-white">{v.title}</h3>
               </div>
             </Link>
           ))}
