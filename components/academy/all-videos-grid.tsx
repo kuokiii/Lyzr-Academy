@@ -149,7 +149,7 @@ export default function AllVideosGrid({
                 />
               </div>
               <div className="px-3 pb-3 mt-3">
-                <h3 className="text-sm/6 md:text-base/7 font-medium text-white line-clamp-2">{v.title}</h3>
+                <h3 className="text-sm/6 md:text-base/7 font-medium text-white">{v.title}</h3>
                 {v.publishedAt ? (
                   <p className="text-white/50 text-xs mt-2">{new Date(v.publishedAt).toLocaleDateString()}</p>
                 ) : null}
