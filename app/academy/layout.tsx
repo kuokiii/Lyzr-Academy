@@ -178,7 +178,7 @@ export default function AcademyLayout({ children }: { children: React.ReactNode 
 
         <div className="flex gap-8">
           <aside className="w-64 shrink-0 hidden md:block">
-            <nav className="sticky top-6 pr-1">
+            <nav className="sticky top-6 pr-1 max-h-[calc(100vh-120px)] overflow-y-auto scrollbar-hide">
               <div className="mb-6 flex items-center gap-3">
                 <img src="/images/lyzr-logo.png" alt="Lyzr" className="h-7 w-auto" />
               </div>
